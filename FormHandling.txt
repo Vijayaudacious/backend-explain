@@ -1,0 +1,18 @@
+Form handling and working with the forms
+handle backend process of forms and making sure the data comming from any frontend libry, fw, template engines,
+we still handle it at the backend   
+
+# 1. session cookie 
+hum log kuch bhi data frontend par browser par rakh sakte hai jab bhi ap kuchh bhi request backend par karoge wo fe 
+par saved data automatically backend par chala jaayega 
+
+
+===================================================================================================================
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+### tumne to bheja tha plain text par server ko mila blob which is not directly readable 
+ab  is cheej ko handle karna padega ki hum us blob ko wapas se readable kar sake 
+
+-------- upper line ke trow readable ho sakte hai json data ko ---------------------
