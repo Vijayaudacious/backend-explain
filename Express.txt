@@ -1,0 +1,46 @@
+// 1. ++++++++++++++++++++++ Express.js FrameWork +++++++++++++++++++++++++++++++++
+1. Introduction to Express.js.
+2. express.js ek npm package hai 
+3. frameWork --->  flow hoga line to line code follow karna padta hai 
+4. manage everything from receiving the request and giving the response 
+
+// 2. Setting up a basic Express application 
+// 3. Routing 
+// 4. request and response handling
+// 5, Error handling
+// 6. Middleware
+
+
+// const express = require('express')
+const app = express() ---> then i create routes
+
+
+
+   ** Middleware  **
+# Middleware use in validation 
+Ans:->>> jab bhi server request accept karta hai waha se rotue ke biuch  pahuchne tak agar app us request ko rukte and kuch perform karte ho,
+         to ye element Middleware khalati hai 
+
+
+** request and response handling ** ---> this code in Middleware file 
+in which thing only three word work front-end --> Back-end --> front-end 
+For Ex:- front end se route galat set kiya browser par then waha get not found likha aya then backend se route create kiye if route nhi
+hai to then front-end se return check kiya 
+
+
+** Error handling ** this code in Middleware file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
